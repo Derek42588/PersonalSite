@@ -1,0 +1,102 @@
+.container{
+    padding-top:50px;
+    
+}
+body {
+    font-family: "Nunito", sans-serif;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+.navbar a {
+    color: white;
+    font-size: 16px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  
+.navbar-toggler{
+    color: white;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-caption{
+    background: black;
+}
+
+
+.btn-secondary {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 16px 30px;
+    border-radius: 0;
+    margin-left: 20px;
+    border: 1px;
+    border-color: #545b62;
+    border-style: solid;
+    font-size: 14px;
+
+}
+
+.no-margin {
+    margin-left: 0;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+#mainNavbar .nav-link {
+    color: rgb(5, 255, 234);
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(5, 255, 234);
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+.sectionHeader {
+    padding-bottom: 40px;
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: background 500ms;
+}
+h1 a:hover {
+    text-decoration: none;
+  }
+
+.unbullet{
+    list-style: none;
+}
