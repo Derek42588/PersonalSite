@@ -24,6 +24,9 @@ app.get("/contact", function(req, res){
    res.render("contact");
 })
 
-app.listen(process.env.PORT, process.env.IP, function(){
+// app.listen(process.env.PORT, process.env.IP, function(){
+//    console.log("Started!");
+// });
+app.listen(3000, function(){
    console.log("Started!");
 });
