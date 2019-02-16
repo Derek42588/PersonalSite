@@ -47,6 +47,7 @@ h3 {
 }
 .carousel-caption{
     background: black;
+    opacity: .75;
 }
 
 
@@ -54,18 +55,14 @@ h3 {
     background-color: rgba(0, 0, 0, 0);
     padding: 16px 30px;
     border-radius: 0;
-    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     border: 1px;
     border-color: #545b62;
     border-style: solid;
     font-size: 14px;
 
 }
-
-.no-margin {
-    margin-left: 0;
-}
-
 
 #mainNavbar {
     font-size: 1.5rem;
